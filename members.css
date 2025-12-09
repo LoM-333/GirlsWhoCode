@@ -1,0 +1,88 @@
+body {
+  font-family: Monospace;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+}
+
+h2 {
+  color: black;
+}
+
+/* Header */
+
+.header {
+  font-family: Monospace;
+  background:	#87CEEB;
+  font-size: 20px;
+  padding:25px;
+  text-align:center;
+}
+
+.header > a {
+  color: black;
+  text-decoration: none;
+}
+
+#active {
+  color: white;
+}
+
+/* Club Members */
+.members {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap; 
+  background: paleturquoise;
+}
+
+.member {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 25px;
+  background: lightcyan;
+}
+
+.brielle {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f5d5ef;
+  padding: 20px;
+  text-align: center;
+}
+
+.top {
+  background-color: #C0C0C0;
+  padding: 10px;
+  margin: -20px;
+  margin-bottom: 10px;
+}
+
+.boxes {
+  display: flex;
+  background-color: #C0C0C0;
+  padding: 10px;
+  margin: -20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.box {
+  border: 2px solid #07070d;
+  padding: 10px;
+  margin: 10px;
+  font-size: 11px;
+}
+
+.vini {
+  color:purple;
+  font-size: 12px;
+  padding: 25px;
+  font-style: italic;
+  font-family: cursive;
+  border:5px solid black;
+  border-radius: 20%;
+  background-color:skyblue;
+}

@@ -1,38 +1,47 @@
-body{ 
-background-color:	#ADD8E6;
-  
+body { 
+  background-color:	#ADD8E6;
 }
-h1{
+
+h1 {
   text-align: center;
   font-size: 60px;
 }
-h2{
+
+h2 {
   text-align: center;
   font-size: 20px;
 }
 
-.header{
-  font-family:Monospace;
-  background:	#87CEEB;
-  font-size: 15px;
-  padding:25px;
- text-align:center;
+p { 
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-#active{
-  color:white;
-}
-a{
+a {
   color:black;
   text-decoration: none;
- padding-left: 10px;
- padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.member {
+.header {
+  font-family: Monospace;
+  background:	#87CEEB;
+  font-size: 20px;
   padding:25px;
-  background: lightgreen;
-  width:50%;
+  text-align:center;
+}
+
+#active {
+  color:white;
+}
+
+.title {
+  background-color: white;
+  padding:25px;
+  margin:25px;
 }
 
 .quote {
@@ -42,13 +51,13 @@ a{
   position: relative;
   padding: 20px 30px;
   background-color: #f9f9f9;
-  border-left: 5px solid #e91e63; /* pink accent */
+  border-left: 5px solid #4467CA; /* blue accent */
   border-radius: 10px;
   max-width: 600px;
 }
 
 .quote-mark {
-  color: #e91e63;
+  color: #4467CA;
   font-size: 3rem;
   font-weight: bold;
   vertical-align: top;
@@ -58,24 +67,10 @@ a{
   font-style: italic;
   color: #222;
 }
-</style>
 
-p{ 
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.title {
-  background-color: white;
-  padding:25px;
-  margin:25px;
-}
-.Quotes{ 
+.quotes { 
   font-style: italic;
   font-weight: bold;
   font-size: 50px;
   font-family:Garamond;
-  
 }
