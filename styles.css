@@ -45,6 +45,8 @@ a {
 }
 
 .quote {
+  display: flex;
+  justify-content: center;
   font-family: "Georgia", serif;
   font-size: 1.4rem;
   color: #333;

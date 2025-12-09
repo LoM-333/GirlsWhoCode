@@ -43,6 +43,9 @@ a:hover {
 }
   
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 900px;
   margin: 25px;
   background: white;
