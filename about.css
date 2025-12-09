@@ -21,10 +21,6 @@ a {
   color: #4169E1;
   text-decoration: none;
 }
-  
-a:hover {
-  text-decoration: underline;
-}
 
 .header {
   font-family: Monospace;
@@ -41,11 +37,14 @@ a:hover {
 #active {
   color:white;
 }
-  
-.container {
+
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
   max-width: 900px;
   margin: 25px;
   background: white;
