@@ -44,9 +44,13 @@ a {
   margin:25px;
 }
 
-.quote {
+.center {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.quote {
   font-family: "Georgia", serif;
   font-size: 1.4rem;
   color: #333;
@@ -75,4 +79,5 @@ a {
   font-weight: bold;
   font-size: 50px;
   font-family:Garamond;
+  text-align: center;
 }
